@@ -172,6 +172,45 @@
           "investors": "Various institutional investors"
         },
         {
+          "type": "debt-offering",
+          "date": "2021-11-30",
+          "amount": 2000,
+          "investors": "Multiple"
+        },
+        {
+          "type": "debt-offering",
+          "date": "2023-09-30",
+          "amount": 1000,
+          "investors": "Qualified institutional buyers (Rule 144A)"
+        },
+        {
+          "type": "acquisition",
+          "date": "2023-12-01",
+          "amount": 2200,
+          "investors": "CYVN Investments RSC Ltd, Tencent affiliates"
+        },
+        {
+          "type": "follow-on",
+          "date": "2025-09-17",
+          "amount": 1160,
+          "advisors": "Morgan Stanley Asia Limited, UBS Securities LLC, Deutsche Bank AG",
+          "investors": "Public"
+        },
+        {
+          "type": "follow-on",
+          "date": "2025-09-30",
+          "amount": 1000,
+          "advisors": "Morgan Stanley Asia Limited, UBS Securities LLC, Deutsche Bank AG",
+          "investors": "Public"
+        },
+        {
+          "type": "ipo-filed",
+          "date": "2025-09-30",
+          "amount": 1390,
+          "advisors": "Morgan Stanley Asia Limited, UBS Securities LLC, Deutsche Bank AG",
+          "investors": "Public"
+        },
+        {
           "type": "series-a",
           "date": "unknown",
           "investors": "Sequoia Capital"
