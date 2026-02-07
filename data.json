@@ -1,0 +1,1056 @@
+{
+  "milestone_types": {
+    "angel": {
+      "label": "Angel",
+      "color": "#fbbf24"
+    },
+    "seed": {
+      "label": "Seed",
+      "color": "#f59e0b"
+    },
+    "series-a": {
+      "label": "Series A",
+      "color": "#10b981"
+    },
+    "series-b": {
+      "label": "Series B",
+      "color": "#06b6d4"
+    },
+    "series-c": {
+      "label": "Series C",
+      "color": "#3b82f6"
+    },
+    "series-d": {
+      "label": "Series D",
+      "color": "#6366f1"
+    },
+    "series-e": {
+      "label": "Series E",
+      "color": "#8b5cf6"
+    },
+    "listing": {
+      "label": "Listing",
+      "color": "#ec4899"
+    },
+    "ipo-rumored": {
+      "label": "IPO Rumored",
+      "color": "#fca5a5"
+    },
+    "ipo-filed": {
+      "label": "IPO Filed",
+      "color": "#f87171"
+    },
+    "ipo-approved": {
+      "label": "IPO Approved",
+      "color": "#ef4444"
+    },
+    "ipo-listed": {
+      "label": "IPO Listed",
+      "color": "#dc2626"
+    },
+    "ipo": {
+      "label": "IPO",
+      "color": "#ef4444"
+    },
+    "follow-on": {
+      "label": "Follow-on",
+      "color": "#14b8a6"
+    },
+    "debt-offering": {
+      "label": "Debt Offering",
+      "color": "#a78bfa"
+    },
+    "acquisition": {
+      "label": "Acquisition",
+      "color": "#64748b"
+    },
+    "merger": {
+      "label": "Merger",
+      "color": "#475569"
+    }
+  },
+  "status_milestones": [
+    "angel",
+    "seed",
+    "series-a",
+    "series-b",
+    "series-c",
+    "series-d",
+    "series-e",
+    "ipo-rumored",
+    "ipo-filed",
+    "ipo-approved",
+    "ipo-listed"
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "自变量机器人",
+      "industry": "Robotics",
+      "type": "private",
+      "headquarters": "China",
+      "founded": "2023-12-01",
+      "milestones": [
+        {
+          "type": "series-a",
+          "date": "2025-09-01",
+          "amount": 140.3,
+          "investors": "Alibaba Cloud, Guoke Investment, China Development Bank Capital, Sequoia Capital, Yingze Capital, Meituan Strategic Investment, Lenovo Star, Legend Capital"
+        },
+        {
+          "type": "series-a",
+          "date": "2026-01-13",
+          "amount": 143.19
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "EngineAI",
+      "industry": "Robotics",
+      "type": "private",
+      "headquarters": "",
+      "founded": "",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2024-01-01",
+          "amount": 28,
+          "investors": "Stone Venture, SenseTime’s Sense Capital, Honghui Capital"
+        },
+        {
+          "type": "seed",
+          "date": "2024-08-28"
+        },
+        {
+          "type": "seed",
+          "date": "2025-02-28"
+        },
+        {
+          "type": "series-a",
+          "date": "2025-07-01",
+          "amount": 137,
+          "investors": "XPeng-backed Rockets Capital, JD.com, CATL Capital, Yintai Group, TH Capital, Guochen Venture Capital, Huangpu River Capital"
+        },
+        {
+          "type": "seed",
+          "date": "2025-07-20"
+        },
+        {
+          "type": "series-a",
+          "date": "2025-07-20",
+          "investors": "JD.com, CATL Capital, Yintai Holdings"
+        },
+        {
+          "type": "series-a",
+          "date": "2025-07-21"
+        },
+        {
+          "type": "series-b",
+          "date": "2025-12-01",
+          "investors": "Huangpujiang Capital, Henan Investment Group’s Huirong Fund, Tsinghua Holding Capital, Stone Venture, Fortune Capital, Guozhong Ventures, CCTV Fund, Nanshan Zhanxin Investment, Caixin Capital, Geely Xingyuan, Welkin Capital"
+        },
+        {
+          "type": "series-a",
+          "date": "2025-12-08"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "NIO Inc.",
+      "industry": "Automotive",
+      "type": "public",
+      "headquarters": "Shanghai",
+      "founded": "2014-11-01",
+      "ticker": "NIO",
+      "milestones": [
+        {
+          "type": "ipo-listed",
+          "date": "2018-09-12",
+          "amount": 1000,
+          "investors": "Various institutional investors"
+        },
+        {
+          "type": "series-a",
+          "date": "unknown",
+          "investors": "Sequoia Capital"
+        },
+        {
+          "type": "series-b",
+          "date": "unknown",
+          "investors": "Tencent"
+        },
+        {
+          "type": "series-c",
+          "date": "unknown",
+          "investors": "Baidu"
+        }
+      ],
+      "revenue": 3061.4
+    },
+    {
+      "id": "4",
+      "name": "DEEP Robotics",
+      "industry": "Robotics",
+      "type": "public",
+      "headquarters": "Hangzhou, China",
+      "founded": "2017",
+      "ticker": "DEEP",
+      "milestones": [
+        {
+          "type": "series-b",
+          "date": "",
+          "investors": ""
+        },
+        {
+          "type": "series-a",
+          "date": "",
+          "investors": ""
+        },
+        {
+          "type": "series-c",
+          "date": "2025-12-01",
+          "amount": 70.7,
+          "investors": "CMB International, China Asset Management, China Telecom, China Unicom, Yunhui Capital"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "智元",
+      "industry": "Artificial Intelligence",
+      "type": "private",
+      "headquarters": "Beijing, China",
+      "founded": "2019-01-01",
+      "milestones": [
+        {
+          "type": "series-a",
+          "date": "2020-03-01",
+          "investors": "Legend Capital"
+        },
+        {
+          "type": "series-b",
+          "date": "2021-12-01",
+          "investors": "Tencent, Meituan, Xiaomi"
+        },
+        {
+          "type": "seed",
+          "date": "2023-01-01",
+          "investors": "Tsinghua University, various angel investors"
+        },
+        {
+          "type": "series-c",
+          "date": "2024-07-01",
+          "amount": 412,
+          "investors": "Alibaba, Tencent, various state-backed entities"
+        },
+        {
+          "type": "series-d",
+          "date": "2025-03-01",
+          "amount": 141,
+          "investors": "Chengdu municipal government, Zhuhai city’s Huafa Group, Hangzhou City Investment Group"
+        },
+        {
+          "type": "ipo-filed",
+          "date": "2025-03-01",
+          "advisors": "China International Capital Corporation (CICC)"
+        }
+      ],
+      "valuation": 2800
+    },
+    {
+      "id": "6",
+      "name": "银河通用",
+      "industry": "Robotics",
+      "type": "private",
+      "headquarters": "Beijing, China",
+      "founded": "",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2024-01-01",
+          "amount": 0
+        },
+        {
+          "type": "series-a",
+          "date": "2024-06-01",
+          "amount": 500
+        },
+        {
+          "type": "series-b",
+          "date": "2025-12-01",
+          "amount": 300
+        }
+      ],
+      "valuation": 3000
+    },
+    {
+      "id": "7",
+      "name": "Engine AI",
+      "industry": "Robotics",
+      "type": "private",
+      "headquarters": "Shenzhen, China",
+      "founded": "",
+      "milestones": [
+        {
+          "type": "series-a",
+          "date": "2025-07-01",
+          "amount": 140,
+          "investors": "Rockets Capital, JD.com, CATL Capital, Yintai Group, TH Capital, Guochen Venture Capital, Huangpu River Capital"
+        },
+        {
+          "type": "series-a",
+          "date": "2025-12-01",
+          "investors": "Huangpu River Capital, Henan Investment Group’s Huirong Fund, TH Capital"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "灵宝",
+      "industry": "Gold Mining",
+      "type": "private",
+      "headquarters": "China",
+      "founded": "",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "",
+          "advisors": "",
+          "investors": ""
+        },
+        {
+          "type": "series-a",
+          "date": "",
+          "advisors": "",
+          "investors": ""
+        },
+        {
+          "type": "series-b",
+          "date": "",
+          "advisors": "",
+          "investors": ""
+        },
+        {
+          "type": "series-c",
+          "date": "",
+          "advisors": "",
+          "investors": ""
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "松延动力",
+      "industry": "Energy",
+      "type": "private",
+      "headquarters": "China",
+      "founded": "",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2021-01-01"
+        },
+        {
+          "type": "series-a",
+          "date": "2022-04-01",
+          "amount": 15
+        },
+        {
+          "type": "series-b",
+          "date": "2023-12-01",
+          "amount": 30
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "XYZ Robotics (星猿哲)",
+      "industry": "Robotics",
+      "type": "private",
+      "headquarters": "China",
+      "founded": "",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2018-06-01",
+          "investors": "Sinovation Ventures"
+        },
+        {
+          "type": "series-a",
+          "date": "2020-04-01",
+          "investors": "Gaorong Capital, 5Y Capital, Source Code Capital"
+        },
+        {
+          "type": "series-b",
+          "date": "2021-03-01",
+          "investors": "Capital Today, Gaorong Capital, 5Y Capital, Source Code Capital"
+        },
+        {
+          "type": "series-b",
+          "date": "2022-06-01",
+          "amount": 40,
+          "investors": "Capital Today, Gaorong Capital, 5Y Capital, Source Code Capital"
+        },
+        {
+          "type": "follow-on",
+          "date": "2023-02-01",
+          "amount": 40,
+          "investors": "Capital Today, Gaorong Capital, 5Y Capital, Source Code Capital"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "快仓",
+      "industry": "Technology",
+      "type": "private",
+      "headquarters": "Wuxi, Jiangsu Province, China",
+      "founded": "2014-01-01",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2014-01-01"
+        },
+        {
+          "type": "series-a",
+          "date": "2017-01-01",
+          "amount": 29,
+          "investors": "Cainiao Network, Softbank China Venture Capital"
+        },
+        {
+          "type": "series-b",
+          "date": "2019-01-01"
+        },
+        {
+          "type": "series-c",
+          "date": "2020-12-01",
+          "amount": 100,
+          "investors": "Kion Group, Prosperity7 Ventures, Bocom International, Shenwan Hongyuan Group, China Creation Ventures"
+        },
+        {
+          "type": "ipo-filed",
+          "date": "2025-11-01",
+          "amount": 100
+        }
+      ],
+      "valuation": 1500
+    },
+    {
+      "id": "12",
+      "name": "Hai Robotics",
+      "industry": "Robotics",
+      "type": "private",
+      "headquarters": "Shenzhen, China",
+      "founded": "2016-01-01",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2016-01-01",
+          "investors": "Walden International"
+        },
+        {
+          "type": "series-a",
+          "date": "2019-01-01",
+          "investors": "Walden International, BEST"
+        },
+        {
+          "type": "series-c",
+          "date": "2021-01-01",
+          "investors": "5Y Capital, Source Code Capital, VMS Asset Management, Walden International, HongShan"
+        },
+        {
+          "type": "series-b",
+          "date": "2021-03-10",
+          "amount": 15.3,
+          "investors": "5Y Capital, Source Code Capital, Walden International"
+        },
+        {
+          "type": "series-b",
+          "date": "2021-03-11",
+          "amount": 15,
+          "investors": "5Y Capital, Source Code Capital, Walden International"
+        },
+        {
+          "type": "series-d",
+          "date": "2022-06-13",
+          "amount": 100,
+          "investors": "Capital Today, 5Y Capital, Source Code Capital, 01VC, HongShan"
+        },
+        {
+          "type": "series-e",
+          "date": "2024-01-01",
+          "investors": "Capital Today, 5Y Capital, Source Code Capital, Sequoia Capital, 01VC"
+        }
+      ],
+      "valuation": 2000
+    },
+    {
+      "id": "13",
+      "name": "赛那德",
+      "industry": "AI-Enabled Warehouse Automation",
+      "type": "private",
+      "headquarters": "Shanghai",
+      "founded": "2012-01-01",
+      "milestones": [
+        {
+          "type": "series-a",
+          "date": "2021-09-10",
+          "amount": 4.64,
+          "valuation": 4.91,
+          "advisors": "",
+          "investors": "China Merchants Group"
+        },
+        {
+          "type": "series-b",
+          "date": "2023-11-01",
+          "valuation": 8.97,
+          "advisors": "",
+          "investors": "Puhua Capital"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "X Square Robot",
+      "industry": "Robotics",
+      "type": "private",
+      "headquarters": "Shenzhen, China",
+      "founded": "2023-12-01",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2023-12-01",
+          "advisors": "",
+          "investors": "Founders, angel investors"
+        },
+        {
+          "type": "series-a",
+          "date": "2025-05-01",
+          "amount": 70,
+          "investors": "Meituan, Alibaba Group, CAS Investment"
+        },
+        {
+          "type": "series-a",
+          "date": "2025-09-01",
+          "amount": 70,
+          "investors": "Alibaba Cloud, Meituan, CAS Investment"
+        },
+        {
+          "type": "series-a",
+          "date": "2026-01-12",
+          "amount": 143,
+          "investors": "ByteDance, HSG, Beijing Information Industry Development Investment Fund, Shenzhen Capital Group, Nanshan SEI Investment, Wuxi Capital Group"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Galaxea AI",
+      "industry": "Robotics",
+      "type": "private",
+      "headquarters": "Beijing, China",
+      "founded": "2023-09-01",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2024-07-01",
+          "amount": 10,
+          "investors": "Ant Group, IDG Capital"
+        },
+        {
+          "type": "series-a",
+          "date": "2025-07-01",
+          "amount": 100,
+          "valuation": 700,
+          "investors": "Capital Today, Meituan's Long-Z Investments, Ant Group, IDG Capital, Baidu Ventures, GL Ventures, FunPlus"
+        }
+      ],
+      "valuation": 700
+    },
+    {
+      "id": "16",
+      "name": "梅卡曼德",
+      "industry": "Artificial Intelligence and Robotics",
+      "type": "private",
+      "headquarters": "Beijing, China",
+      "founded": "2016-01-01",
+      "milestones": [
+        {
+          "type": "series-c",
+          "date": "2021-05-01",
+          "amount": 155,
+          "advisors": "Taihecap",
+          "investors": "Meituan, Sequoia Capital China, Source Code Capital"
+        },
+        {
+          "type": "seed",
+          "date": "2023-01-01",
+          "investors": "IDG Capital, Sequoia Capital China"
+        },
+        {
+          "type": "series-a",
+          "date": "2023-01-01",
+          "investors": "Source Code Capital"
+        },
+        {
+          "type": "series-b",
+          "date": "2023-01-01",
+          "investors": "Meituan"
+        },
+        {
+          "type": "series-c",
+          "date": "2025-08-01",
+          "amount": 70,
+          "investors": "Zhongshan Broad-Ocean Motor Co., Ltd., CICC Porsche, CICC Private Equity, Beijing Shanghe Momentum, Shanghai Nanxiang, Tianjin Haihe, Hebei Structural Reform Fund, Tianjin Venture Capital Management, China Growth Capital, China Xiong'an Group Fund Management"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Alsontech",
+      "industry": "Robotics",
+      "type": "private",
+      "headquarters": "Beijing, China",
+      "founded": "2015-01-01",
+      "milestones": [
+        {
+          "type": "angel",
+          "date": "2017-07-23",
+          "advisors": "",
+          "investors": "DianLiang Capitals"
+        },
+        {
+          "type": "series-a",
+          "date": "2022-07-12",
+          "valuation": 3.69,
+          "investors": "Inspiration Capital"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "精锋医疗",
+      "industry": "Medical Devices",
+      "type": "private",
+      "headquarters": "China",
+      "founded": "",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2016-01-01"
+        },
+        {
+          "type": "series-a",
+          "date": "2018-01-01"
+        },
+        {
+          "type": "series-b",
+          "date": "2020-04-01"
+        },
+        {
+          "type": "series-c",
+          "date": "2021-11-06",
+          "amount": 200,
+          "investors": "Boyu Investment, Temasek, Sequoia Capital China, Sanzheng Health Investment, LYFE Capital, Guoze Investment, OrbiMed, Chenyi Investment, Greater Bay Area Fund, Octagon Capital, Sage Partners, Lingang Blue Bay Capital, Future Assets"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "佗道医疗",
+      "industry": "Healthcare",
+      "type": "private",
+      "headquarters": "Nanjing, Jiangsu, China",
+      "founded": "",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": ""
+        },
+        {
+          "type": "series-a",
+          "date": ""
+        },
+        {
+          "type": "series-b",
+          "date": ""
+        },
+        {
+          "type": "series-c",
+          "date": ""
+        },
+        {
+          "type": "series-d",
+          "date": ""
+        },
+        {
+          "type": "series-e",
+          "date": ""
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Lancet Robotics",
+      "industry": "Healthcare",
+      "type": "private",
+      "headquarters": "China",
+      "founded": "",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2020-01-01"
+        },
+        {
+          "type": "series-a",
+          "date": "2021-12-01",
+          "amount": 15,
+          "investors": "Qiming Venture Partners, Hillhouse Capital"
+        },
+        {
+          "type": "series-b",
+          "date": "2023-07-01",
+          "amount": 30,
+          "investors": "Sequoia Capital China, Tencent Investment"
+        },
+        {
+          "type": "series-c",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "德壹机器人",
+      "industry": "Robotics",
+      "type": "private",
+      "headquarters": "Hangzhou, China",
+      "founded": "",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2000-01-01"
+        },
+        {
+          "type": "series-a",
+          "date": "2000-01-01"
+        },
+        {
+          "type": "series-b",
+          "date": "2000-01-01"
+        },
+        {
+          "type": "series-c",
+          "date": "2025-12-09",
+          "amount": 70
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "术锐机器人",
+      "industry": "Soft Robotics",
+      "type": "private",
+      "headquarters": "Beijing, China",
+      "founded": "2016-01-01",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2016-01-01"
+        },
+        {
+          "type": "series-a",
+          "date": "2022-01-01"
+        },
+        {
+          "type": "series-b",
+          "date": "2023-01-01"
+        },
+        {
+          "type": "series-c",
+          "date": "2024-12-01",
+          "amount": 21,
+          "advisors": "Star Capital",
+          "investors": "Jinshi Investment"
+        },
+        {
+          "type": "series-c",
+          "date": "2025-01-01",
+          "investors": "Shenqi Capital, Hot Star Fund"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Kunwei Technology Co., Ltd.",
+      "industry": "High-Tech",
+      "type": "private",
+      "headquarters": "Beijing, China",
+      "founded": "2018-01-01",
+      "milestones": [
+        {
+          "type": "series-a",
+          "date": "2021-01-01",
+          "amount": 4.68,
+          "investors": "Xiaomi Production Investment, Sunny Industry Fund"
+        },
+        {
+          "type": "series-b",
+          "date": "2025-01-09",
+          "amount": 7.16,
+          "investors": "Xiaomi Production Investment, Sunny Industry Fund, Shenzhen Venture Capital, Hillhouse Venture Capital, Minghui"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "01.AI",
+      "industry": "Artificial Intelligence",
+      "type": "private",
+      "headquarters": "Beijing, China",
+      "founded": "2023-03-01",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2023-07-01",
+          "amount": 200,
+          "advisors": "Kai-Fu Lee",
+          "investors": "Alibaba Group, Xiaomi, Sinovation Ventures"
+        },
+        {
+          "type": "series-a",
+          "date": "2023-11-01",
+          "amount": 200,
+          "valuation": 1000,
+          "investors": "Alibaba Group"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Baichuan Intelligent Technology",
+      "industry": "Artificial Intelligence",
+      "type": "private",
+      "headquarters": "Beijing, China",
+      "founded": "2023-04-01",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2023-04-01"
+        },
+        {
+          "type": "series-a",
+          "date": "2024-07-01",
+          "amount": 691
+        },
+        {
+          "type": "series-b",
+          "date": "2025-01-01"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "StepFun",
+      "industry": "Artificial Intelligence",
+      "type": "private",
+      "headquarters": "Shanghai, China",
+      "founded": "2023-04-01",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2023-12-01",
+          "amount": 100,
+          "investors": "Tencent, Qiming Venture Partners, 5Y Capital"
+        },
+        {
+          "type": "series-a",
+          "date": "2024-03-01",
+          "amount": 200,
+          "investors": "Shanghai State-owned Capital Investment Co., China Life Private Equity Investment"
+        },
+        {
+          "type": "series-b",
+          "date": "2024-12-01",
+          "amount": 690,
+          "investors": "Tencent, Qiming Venture Partners, 5Y Capital, Shanghai SDIC Leading Fund, China Life Private Equity Investment, Pudong Venture Capital, Xuhui Capital, Wuxi Liangxi Fund, Xiamen ITG Group, Huaqin Technology"
+        },
+        {
+          "type": "series-b",
+          "date": "2026-01-01",
+          "amount": 718,
+          "investors": "Shanghai SDIC Leading Fund, China Life Private Equity Investment, Pudong Venture Capital, Xuhui Capital, Wuxi Liangxi Fund, Xiamen ITG Group, Huaqin Technology, Tencent, Qiming Venture Partners, 5Y Capital"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Moonshot AI",
+      "industry": "Artificial Intelligence",
+      "type": "private",
+      "headquarters": "Beijing",
+      "founded": "",
+      "milestones": [
+        {
+          "type": "series-c",
+          "date": "2025-12-31",
+          "amount": 500,
+          "valuation": 4300,
+          "investors": "IDG Capital, Alibaba Group, Tencent Holdings"
+        },
+        {
+          "type": "follow-on",
+          "date": "2026-01-01",
+          "valuation": 4800,
+          "investors": "IDG Capital, Alibaba Group, Tencent Holdings"
+        }
+      ],
+      "valuation": 4800
+    },
+    {
+      "id": "28",
+      "name": "Han's CNC Technology Co., Ltd.",
+      "industry": "Manufacturing",
+      "type": "private",
+      "headquarters": "Shenzhen, China",
+      "founded": "2004-01-01",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2023-10-12"
+        },
+        {
+          "type": "series-a",
+          "date": "2023-10-12"
+        },
+        {
+          "type": "series-b",
+          "date": "2023-10-12"
+        },
+        {
+          "type": "series-c",
+          "date": "2023-10-12"
+        },
+        {
+          "type": "series-d",
+          "date": "2023-10-12"
+        },
+        {
+          "type": "series-e",
+          "date": "2023-10-12"
+        },
+        {
+          "type": "angel",
+          "date": "2026-01-01",
+          "investors": "Guozhong Capital, Chunde Investment"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Han's Robot",
+      "industry": "Robotics",
+      "type": "private",
+      "headquarters": "Shenzhen, China",
+      "founded": "2017-01-01",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2020-10-01",
+          "amount": 25,
+          "investors": "China Merchants Capital"
+        },
+        {
+          "type": "series-a",
+          "date": "2020-10-01",
+          "amount": 165,
+          "investors": "China Merchants Capital"
+        },
+        {
+          "type": "series-a",
+          "date": "2021-06-01",
+          "amount": 61,
+          "investors": "China Merchants Capital, Shenzhen Toposcend Capital, Founder Securities"
+        },
+        {
+          "type": "series-b",
+          "date": "2021-06-01",
+          "amount": 61,
+          "investors": "China Merchants Capital, Shenzhen Toposcend Capital, Founder Securities"
+        },
+        {
+          "type": "series-b",
+          "date": "2022-04-01",
+          "amount": 31,
+          "investors": "China Merchants Capital, additional undisclosed investors"
+        },
+        {
+          "type": "series-c",
+          "date": "2023-08-01",
+          "amount": 30
+        }
+      ],
+      "valuation": 719
+    },
+    {
+      "id": "30",
+      "name": "Picea Motion (杉川谐波)",
+      "industry": "Robotics and Artificial Intelligence",
+      "type": "private",
+      "headquarters": "China",
+      "founded": "",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2022-01-01"
+        },
+        {
+          "type": "series-a",
+          "date": "2023-11-01",
+          "amount": 14,
+          "investors": "Led by Geely Capital, BAIC Capital and other venture funds."
+        },
+        {
+          "type": "series-b",
+          "date": "2024-01-01"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Niu Commercial",
+      "industry": "Transportation",
+      "type": "private",
+      "headquarters": "China",
+      "founded": "",
+      "milestones": [
+        {
+          "type": "seed",
+          "date": "2023-01-01"
+        },
+        {
+          "type": "series-a",
+          "date": "2023-01-01"
+        },
+        {
+          "type": "series-b",
+          "date": "2023-01-01"
+        },
+        {
+          "type": "series-c",
+          "date": "2023-01-01"
+        },
+        {
+          "type": "series-d",
+          "date": "2023-01-01"
+        },
+        {
+          "type": "series-e",
+          "date": "2023-01-01"
+        }
+      ]
+    }
+  ]
+}

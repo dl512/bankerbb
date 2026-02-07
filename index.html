@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BB for Bankers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="dashboard-container">
+        <!-- Header -->
+        <header class="dashboard-header">
+            <h1>BB for Bankers</h1>
+        </header>
+
+        <!-- Tabs -->
+        <div class="tabs-container">
+            <button class="tab-button active" data-tab="companies">
+                <span>Companies</span>
+            </button>
+            <button class="tab-button" data-tab="transactions">
+                <span>Transactions</span>
+            </button>
+        </div>
+
+        <!-- Companies Tab Content -->
+        <div class="tab-content active" id="tab-companies">
+            <!-- Company Filters -->
+            <div class="filter-panel">
+                <h3>Filters</h3>
+
+                <div class="filter-group">
+                    <label class="filter-label">Company Type</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="company-filter-private" checked>
+                            <span>Private</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="company-filter-public" checked>
+                            <span>Public</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label">Industry</label>
+                    <div class="checkbox-group" id="company-industry-filters">
+                        <!-- Dynamically populated -->
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label">
+                        Select Companies (<span id="company-selected-count">All</span> selected)
+                    </label>
+                    <div class="company-selector" id="company-selector">
+                        <!-- Dynamically populated -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Company Stats -->
+            <div class="stats-section">
+                <div class="stat-card">
+                    <div class="stat-label">Total Companies</div>
+                    <div class="stat-value" id="company-stat-total">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Public</div>
+                    <div class="stat-value stat-blue" id="company-stat-public">0</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-label">Private</div>
+                    <div class="stat-value stat-green" id="company-stat-private">0</div>
+                </div>
+            </div>
+
+            <!-- Companies Table -->
+            <div class="companies-container">
+                <div class="companies-table" id="companies-table">
+                    <!-- Companies will be rendered here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Transactions Tab Content -->
+        <div class="tab-content" id="tab-transactions">
+            <!-- Transaction Filters -->
+            <div class="filter-panel">
+                <h3>Filters</h3>
+
+                <div class="filter-group">
+                    <label class="filter-label">Transaction Types</label>
+                    <div class="checkbox-group" id="transaction-type-filters">
+                        <!-- Dynamically populated -->
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label">Company Type</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="transaction-filter-private" checked>
+                            <span>Private</span>
+                        </label>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="transaction-filter-public" checked>
+                            <span>Public</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label">Industry</label>
+                    <div class="checkbox-group" id="transaction-industry-filters">
+                        <!-- Dynamically populated -->
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label">Date Range</label>
+                    <div class="date-range-group">
+                        <div class="date-input-group">
+                            <label class="date-label">Start Date</label>
+                            <input type="date" id="transaction-date-start" class="date-input">
+                        </div>
+                        <div class="date-input-group">
+                            <label class="date-label">End Date</label>
+                            <input type="date" id="transaction-date-end" class="date-input">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label class="filter-label">
+                        Select Companies (<span id="transaction-selected-count">All</span> selected)
+                    </label>
+                    <div class="company-selector" id="transaction-company-selector">
+                        <!-- Dynamically populated -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Transaction Stats -->
+            <div class="stats-section">
+                <div class="stat-card">
+                    <div class="stat-label">Total Transactions</div>
+                    <div class="stat-value stat-purple" id="transaction-stat-total">0</div>
+                </div>
+            </div>
+
+            <!-- Transactions Table -->
+            <div class="transactions-container">
+                <div class="transactions-table" id="transactions-table">
+                    <!-- Transactions will be rendered here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Company Details Modal -->
+    <div id="company-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modal-company-name"></h2>
+                <button class="modal-close" id="modal-close">&times;</button>
+            </div>
+            <div class="modal-body" id="modal-body">
+                <!-- Company details will be populated here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="data-loader.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
